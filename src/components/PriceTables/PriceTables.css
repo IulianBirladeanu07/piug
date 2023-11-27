@@ -1,0 +1,58 @@
+/* Stilizare generală pentru tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Stilizare pentru secțiunile specifice ale tabelului */
+  h2 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Stilizare pentru rândurile tabelului */
+  tr {
+    transition: background-color 0.3s;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Stilizare pentru celulele tabelului */
+  td {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Stilizare imaginile pentru a le face mai mici */
+  td img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  /* Stilizare pentru antetul tabelului */
+  th, td {
+    font-weight: normal;
+  }
+  
+  /* Stilizare suplimentară la necesitate */
+  

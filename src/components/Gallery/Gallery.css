@@ -1,0 +1,65 @@
+/* Gallery.css */
+.polaroid {
+    transition: transform 0.2s;
+    border: 10px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .polaroid:hover {
+    transform: scale(1.1);
+  }
+  
+  .image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .caption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .gallery-container {
+    margin-top: 20px;
+  }
+  
+  /* Additional styling for better spacing */
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+/* Styling for Previous and Next buttons */
+.gallery-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .gallery-buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px; /* You can adjust the padding as needed */
+    border-radius: 10px;    
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100px; /* Set a fixed width for the buttons */
+    text-align: center; /* Center the text within the button */
+    margin-left: 50px;
+  }
+  
+  .gallery-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .gallery-buttons button:disabled {
+    background-color: #b3b3b3;
+    cursor: not-allowed;
+  }

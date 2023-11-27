@@ -1,0 +1,64 @@
+/* Add specific styles for the About page here */
+
+.about-container {
+    max-width: 1300px;
+    margin: 60px auto 0; /* Added top margin of 30px */
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  .about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .about-video {
+    flex: 1;
+  }
+  
+  .about-video iframe {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .about-video iframe:hover {
+    transform: scale(1.1);
+  }
+  
+  .about-text {
+    flex: 1;
+    margin-left: 100px;
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* Add any additional styles here */
+  /* Social Media Icons Styling */
+.social-icons {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 2;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #555;
+    cursor: pointer;
+  }
